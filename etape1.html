@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Jeux blackJack</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  </head>
+
+  <form >
+    <fieldset>
+      <legend> veuiller ecrire votre numero entre 0 et 10 </legend>
+      <div>
+        <input id="Mon_numero" type="number" min="1" max="10">
+      </div>
+      <input id="test" type="button" value="Valider" onclick="test__comparaison(); return false;">
+      <span id="results">Resultat</span>
+      <p>nombre de victoire !! : <span id="victoire"> </span></p>
+      <p>nombre de defaite !! : <span id="defaite"> </span></p>
+      <div class="Mon_numero"> </div>
+    </fieldset>
+  </form>
+
+<script src="JS/blackJack.js"></script>
+  </body>
+</html>
